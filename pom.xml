@@ -17,6 +17,7 @@
 
     <modules>
         <module>infinity-common</module>
+        <module>infinity-training</module>
     </modules>
 
     <properties>
