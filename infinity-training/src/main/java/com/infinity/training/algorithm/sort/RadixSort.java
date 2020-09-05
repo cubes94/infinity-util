@@ -15,7 +15,8 @@ package com.infinity.training.algorithm.sort;
 public class RadixSort implements IArraySort {
 
     /**
-     * 所有元素统一为同样数位长度的值，数位短的前面补0，从最低位到最高位循环进行排序。
+     * 所有元素统一为同样数位长度的值，数位短的前面补0，从最低位到最高位循环进行排序(LSD)。
+     * # 同时还存在从最高位开始比较的，称为高位排序(MSD)
      *
      * @param arr 待排序数组
      * @return 排序后的数组
