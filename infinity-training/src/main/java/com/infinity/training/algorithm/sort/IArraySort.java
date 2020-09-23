@@ -2,6 +2,7 @@ package com.infinity.training.algorithm.sort;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.StopWatch;
 
 import java.util.Arrays;
 
@@ -13,6 +14,8 @@ import java.util.Arrays;
  * @since 2020/08/27 21:52
  */
 public interface IArraySort {
+
+    StopWatch STOP_WATCH = new StopWatch();
 
     Logger LOG = LoggerFactory.getLogger(IArraySort.class);
 
@@ -77,12 +80,9 @@ public interface IArraySort {
      */
     default int[] sortAndTiming(int[] sourceArray) {
         final int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
-        long start = System.currentTimeMillis();
+        STOP_WATCH.start("sortAndTiming");
         final int[] result = this.sort(arr);
-        long end = System.currentTimeMillis();
-//        final Gson gson = new Gson();
-//        LOG.info("param: {}, \n result: {}, \n time: {}", gson.toJson(sourceArray), gson.toJson(result), end - start);
-        LOG.info("time: {}", end - start);
+        STOP_WATCH.stop();
         return result;
     }
 
@@ -97,11 +97,11 @@ public interface IArraySort {
         // 测试排序算法选择快速排序
         IArraySort sort = new QuickSort();
         final int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
-        long start = System.currentTimeMillis();
+        STOP_WATCH.start("quickSort sortAndTiming");
         final int[] testResult = sort.sort(arr);
-        long end = System.currentTimeMillis();
+        STOP_WATCH.stop();
         final boolean flag = Arrays.equals(result, testResult);
-        LOG.info("test time: {}, flag: {}", end - start, flag);
+        LOG.info("flag: {}, \r\n {}", flag, STOP_WATCH.prettyPrint());
         return result;
     }
 }
