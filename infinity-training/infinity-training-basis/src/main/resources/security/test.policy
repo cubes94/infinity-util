@@ -1,0 +1,18 @@
+// test目录下编译出来的class问价在test-classes中，故SecurityManagerAnalysisTest没有此权限
+grant codebase "file:/D:/workspace/wuhaichao/infinity-util/infinity-training/target/classes/-" {
+	permission java.io.FilePermission "test", "write";
+};
+
+grant codebase "file:/-" {
+    permission java.util.PropertyPermission "java.security.policy", "write";
+    permission java.util.PropertyPermission "java.security.debug", "write";
+    permission java.lang.RuntimePermission "createSecurityManager", "";
+    permission java.lang.RuntimePermission "setSecurityManager", "";
+    permission java.util.PropertyPermission "idea.is.junit5", "read";
+    permission java.util.PropertyPermission "nodeNamesHandler", "read";
+    permission java.lang.reflect.ReflectPermission "suppressAccessChecks", "";
+    permission java.lang.RuntimePermission "accessDeclaredMembers", "";
+    permission java.util.PropertyPermission "intellij.debug.agent", "read,write";
+    permission java.io.FilePermission "D:/work/JetBrains/idea_config/system/captureAgent/debugger-agent-storage.jar", "read";
+    permission java.util.PropertyPermission "jboss.modules.system.pkgs", "read,write";
+};
