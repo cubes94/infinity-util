@@ -1,5 +1,5 @@
 // test目录下编译出来的class问价在test-classes中，故SecurityManagerAnalysisTest没有此权限
-grant codebase "file:/D:/workspace/wuhaichao/infinity-util/infinity-training/target/classes/-" {
+grant codebase "file:/D:/workspace/wuhaichao/infinity-util/infinity-training/infinity-training-basis/target/classes/-" {
 	permission java.io.FilePermission "test", "write";
 };
 
