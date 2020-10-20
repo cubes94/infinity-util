@@ -6,7 +6,7 @@
 
     <modules>
         <module>infinity-training-basis</module>
-        <module>infinity-training-spring-mybatis</module>
+        <module>infinity-training-mybatis-spring</module>
     </modules>
 
     <parent>
@@ -20,6 +20,17 @@
     <packaging>pom</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
