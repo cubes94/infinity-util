@@ -1,4 +1,4 @@
-package com.infinity.training.spring.mybatis.plugins.mapper;
+package com.infinity.training.mybatis.spring.plugins.mapper;
 
 
 import org.apache.ibatis.executor.ErrorContext;

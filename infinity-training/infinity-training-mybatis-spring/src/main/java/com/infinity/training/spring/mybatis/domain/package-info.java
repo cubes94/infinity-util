@@ -1,1 +1,0 @@
-package com.infinity.training.spring.mybatis.domain;

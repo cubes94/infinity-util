@@ -1,4 +1,4 @@
-package com.infinity.training.spring.mybatis.domain.model;
+package com.infinity.training.mybatis.spring.domain.model;
 
 import lombok.Data;
 

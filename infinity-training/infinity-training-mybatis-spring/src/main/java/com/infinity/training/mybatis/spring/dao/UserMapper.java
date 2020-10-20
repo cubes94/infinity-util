@@ -1,4 +1,4 @@
-package com.infinity.training.spring.mybatis.dao;
+package com.infinity.training.mybatis.spring.dao;
 
 import org.apache.ibatis.annotations.Select;
 

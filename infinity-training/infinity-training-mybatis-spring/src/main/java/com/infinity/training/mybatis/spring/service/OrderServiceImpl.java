@@ -1,6 +1,6 @@
-package com.infinity.training.spring.mybatis.service;
+package com.infinity.training.mybatis.spring.service;
 
-import com.infinity.training.spring.mybatis.dao.OrderMapper;
+import com.infinity.training.mybatis.spring.dao.OrderMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.infinity.training.spring.mybatis.config;
+package com.infinity.training.mybatis.spring.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.infinity.training.spring.mybatis.plugins.InfinitySqlSessionFactoryBean;
+import com.infinity.training.mybatis.spring.plugins.InfinitySqlSessionFactoryBean;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

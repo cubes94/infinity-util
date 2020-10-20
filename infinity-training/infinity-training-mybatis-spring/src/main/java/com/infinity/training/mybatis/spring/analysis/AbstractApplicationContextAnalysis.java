@@ -1,4 +1,4 @@
-package com.infinity.training.spring.mybatis.analysis;
+package com.infinity.training.mybatis.spring.analysis;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

@@ -1,6 +1,6 @@
-package com.infinity.training.spring.mybatis.plugins.annotation;
+package com.infinity.training.mybatis.spring.plugins.annotation;
 
-import com.infinity.training.spring.mybatis.plugins.mapper.InfinityMapperScannerConfigurer;
+import com.infinity.training.mybatis.spring.plugins.mapper.InfinityMapperScannerConfigurer;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;

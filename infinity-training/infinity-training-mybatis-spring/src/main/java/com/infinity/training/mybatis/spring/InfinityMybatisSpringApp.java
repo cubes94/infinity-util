@@ -1,9 +1,9 @@
-package com.infinity.training.spring.mybatis;
+package com.infinity.training.mybatis.spring;
 
 import com.alibaba.druid.support.json.JSONUtils;
-import com.infinity.training.spring.mybatis.dao.OrderMapper;
-import com.infinity.training.spring.mybatis.dao.UserMapper;
-import com.infinity.training.spring.mybatis.plugins.annotation.InfinityMapperScan;
+import com.infinity.training.mybatis.spring.dao.OrderMapper;
+import com.infinity.training.mybatis.spring.dao.UserMapper;
+import com.infinity.training.mybatis.spring.plugins.annotation.InfinityMapperScan;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;

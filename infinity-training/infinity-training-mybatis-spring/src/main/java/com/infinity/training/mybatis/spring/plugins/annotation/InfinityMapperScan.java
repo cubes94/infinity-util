@@ -1,4 +1,4 @@
-package com.infinity.training.spring.mybatis.plugins.annotation;
+package com.infinity.training.mybatis.spring.plugins.annotation;
 
 import org.springframework.context.annotation.Import;
 
