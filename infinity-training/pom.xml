@@ -7,6 +7,9 @@
     <modules>
         <module>infinity-training-basis</module>
         <module>infinity-training-mybatis-spring</module>
+        <module>infinity-training-mybatis-spring-boot-starter</module>
+        <module>infinity-training-mybatis-spring-test</module>
+        <module>infinity-training-mybatis-spring-boot-starter-test</module>
     </modules>
 
     <parent>

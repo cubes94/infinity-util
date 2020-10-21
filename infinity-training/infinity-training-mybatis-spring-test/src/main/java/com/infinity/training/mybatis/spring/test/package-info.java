@@ -1,0 +1,1 @@
+package com.infinity.training.mybatis.spring.test;
