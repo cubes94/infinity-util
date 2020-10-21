@@ -10,6 +10,7 @@
         <module>infinity-training-mybatis-spring-boot-starter</module>
         <module>infinity-training-mybatis-spring-test</module>
         <module>infinity-training-mybatis-spring-boot-starter-test</module>
+        <module>infinity-training-spring-analysis</module>
     </modules>
 
     <parent>

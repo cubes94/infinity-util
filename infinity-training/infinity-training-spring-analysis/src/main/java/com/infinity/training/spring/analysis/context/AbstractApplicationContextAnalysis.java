@@ -1,11 +1,11 @@
-package com.infinity.training.mybatis.spring.analysis;
+package com.infinity.training.spring.analysis.context;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.support.AbstractApplicationContext;
 
 /**
- * 代码解析(无用处)
+ * AbstractApplicationContext
  *
  * @author whc
  * @version 1.0.0
