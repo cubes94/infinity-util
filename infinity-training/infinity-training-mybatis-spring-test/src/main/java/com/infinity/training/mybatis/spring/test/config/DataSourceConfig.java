@@ -31,7 +31,7 @@ public class DataSourceConfig {
 
     @Bean
     public SqlSessionFactory sqlSessionFactory() {
-        final InfinitySqlSessionFactoryBean sqlSessionFactoryBean = new InfinitySqlSessionFactoryBean();
+        InfinitySqlSessionFactoryBean sqlSessionFactoryBean = new InfinitySqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource());
         return sqlSessionFactoryBean.getObject();
     }
