@@ -51,7 +51,7 @@ public class InfinityClassPathMapperScanner extends ClassPathBeanDefinitionScann
             // 需要添加到IOC容器中mapper对象的类型
             definition.setBeanClass(InfinityMapperFactoryBean.class);
 
-            // 按类型自动装配
+            // 按类型自动装配，这里会调用setSqlSessionFactory方法注入sqlSessionFactory
             logger.debug("Enabling autowire by type for MapperFactoryBean with name '" + holder.getBeanName() + "'.");
             definition.setAutowireMode(AbstractBeanDefinition.AUTOWIRE_BY_TYPE);
         }

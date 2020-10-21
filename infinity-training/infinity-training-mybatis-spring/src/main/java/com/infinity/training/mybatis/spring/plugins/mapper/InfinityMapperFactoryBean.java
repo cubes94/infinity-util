@@ -68,10 +68,6 @@ public class InfinityMapperFactoryBean<T> extends DaoSupport implements FactoryB
         return this.sqlSessionFactory.openSession();
     }
 
-    public void setMapperInterface(Class<T> mapperInterface) {
-        this.mapperInterface = mapperInterface;
-    }
-
     public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
         this.sqlSessionFactory = sqlSessionFactory;
     }
