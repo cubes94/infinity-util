@@ -6,12 +6,13 @@
 
     <modules>
         <module>infinity-training-basis</module>
-        <module>infinity-training-mybatis-spring</module>
-        <module>infinity-training-mybatis-spring-boot-starter</module>
-        <module>infinity-training-mybatis-spring-test</module>
-        <module>infinity-training-mybatis-spring-boot-starter-test</module>
         <module>infinity-training-spring-analysis</module>
+        <module>infinity-training-mybatis-spring</module>
+        <module>infinity-training-mybatis-spring-test</module>
         <module>infinity-training-mybatis-spring-boot-autoconfigure</module>
+        <module>infinity-training-mybatis-spring-boot-starter</module>
+        <module>infinity-training-mybatis-spring-boot-starter-test</module>
+        <module>infinity-training-distributed-tx</module>
     </modules>
 
     <parent>

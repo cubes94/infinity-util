@@ -1,0 +1,1 @@
+package com.infinity.training.distributed.tx.server2.domain;
